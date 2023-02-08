@@ -1,0 +1,16 @@
+<%- include('includes/header')%>
+
+    <body>
+        <h1>About Page</h1>
+        <h3>
+            <ul>
+                <% hobbies.hobbies1.forEach((item)=>{ %>
+                    <li>
+                        <%= item %>
+                    </li>
+                    <% })%>
+            </ul>
+        </h3>
+    </body>
+
+    <%- include('includes/footer')%>
